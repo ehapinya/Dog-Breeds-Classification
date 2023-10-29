@@ -1,4 +1,4 @@
-python
+python=3.9
 opencv-python
 h5py
 matplotlib
@@ -8,5 +8,5 @@ tqdm
 scikit-learn
 pillow
 ipykernel
-tensorflow
+tensorflow=2.7
 streamlit
