@@ -20,7 +20,7 @@ Xception_model.compile(
     loss='categorical_crossentropy',
     metrics=['accuracy']
 )
-Xception_model.load_weights('saved_models/weights.best.Xception.hdf5')
+Xception_model.load_weights('weights.best.Xception.hdf5')
 ResNet50_model = ResNet50(weights='imagenet')
 uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'jpeg', 'png'])
 
