@@ -9,3 +9,4 @@ pillow
 ipykernel
 tensorflow==2.7
 streamlit
+protobuf==3.20.0
