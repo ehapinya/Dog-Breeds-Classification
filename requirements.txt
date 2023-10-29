@@ -7,5 +7,5 @@ tqdm
 scikit-learn
 pillow
 ipykernel
-tensorflow
+tensorflow==2.4.0
 streamlit
